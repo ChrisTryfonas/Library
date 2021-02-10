@@ -1,0 +1,2 @@
+# Library
+ This is a project that demonstrates the crucial role of databases in order to store and search data efficiently.  I created a problem description of a student library based on my personal experience as a student at University of Patras. That is a very good example of an institution that needs perfect data management in order to avoid mistakes and provide excellent services to the users. 
