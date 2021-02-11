@@ -39,10 +39,14 @@ WHERE mgr_id = emp_id;
 
 -- 9. Find all female employees that work in library more than 5 years
 SELECT * FROM employee 
-WHERE gender = 'F' AND DATEDIFF(CURRENT_DATE(),start_date)>5*365.25; -- DATEDIFF gives result in days so I corvert it.
+WHERE gender = 'F' AND DATEDIFF(CURRENT_DATE(),start_date)>5*365.25; 
+/* DATEDIFF gives result in days so I corvert it.*/
 
--- 10. Display all students (first and last name) along with the duration of borrowing in days.
-SELECT student.first_name, student.last_name, book.title, DATEDIFF(borrows.end_day,borrows.start_day) AS duration
+
+-- 10. Display all students (first and last name) 
+--     along with the duration of borrowing in days.
+SELECT student.first_name, student.last_name, book.title, 
+DATEDIFF(borrows.end_day,borrows.start_day) AS duration
 FROM student
 JOIN borrows
 ON student.std_id = borrows.std_id
