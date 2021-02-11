@@ -8,4 +8,4 @@ Database schema
 ![](images/Schema_DB.PNG)
 
 Query example with result
-![](images/example.png)
+
