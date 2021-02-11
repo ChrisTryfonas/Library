@@ -7,5 +7,3 @@ The tools used are: VScode, MySQL server as the RDBMS and the SQL language.
 Database schema
 ![](images/Schema_DB.PNG)
 
-Query example with result
-
